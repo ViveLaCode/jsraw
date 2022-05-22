@@ -21,6 +21,7 @@ Super simple reddit API wrapper written in JavaScript
   - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
   - [W3](https://www.w3schools.com/js/js_promise.asp)
 - [Reddit API Documentation](https://www.reddit.com/dev/api)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 ## Quick Todo
 

@@ -1,3 +1,8 @@
+dist/
+build/
+doc/
+oauth_info.json
+
 # Logs
 logs
 *.log

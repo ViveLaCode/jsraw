@@ -1,7 +1,7 @@
 # JSreddAPI
 Super simple reddit API wrapper written in JavaScript
 
-## Where To Get Startted
+## Where To Get Started
 
 - [r/learnpython - how to build an api wrapper](https://www.reddit.com/r/learnpython/comments/711ny3/how_to_build_an_api_wrapper/)
 - ["how to" in R programming language](https://colinfay.me/build-api-wrapper-package-r/)

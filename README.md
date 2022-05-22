@@ -10,9 +10,12 @@ Super simple reddit API wrapper written in JavaScript
 
 ### Example API wrappers
 
-- [JS wrapper for reddit API](https://github.com/not-an-aardvark/snoowrap)
-- [PY wrapper for github API](https://github.com/sigmavirus24/github3.py)
-- [PY wrapper for ifixit API](https://github.com/xiongchiamiov/pyfixit)
+- [JS | wrapper for reddit API](https://github.com/not-an-aardvark/snoowrap)
+- [JS | IMGUR Node API](https://github.com/jamiees2/imgur-node-api)
+- [JS | Spotifiy API wrapper](https://github.com/thelinmichael/spotify-web-api-node)
+- [JS | Oauth wrapper for node](https://github.com/ciaranj/node-oauth)
+- [PY | wrapper for github API](https://github.com/sigmavirus24/github3.py)
+- [PY | wrapper for ifixit API](https://github.com/xiongchiamiov/pyfixit)
 
 ### Further Readings
 

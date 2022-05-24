@@ -2,7 +2,10 @@
   "name": "jsreddapi",
   "version": "0.0.1",
   "description": "Super simple reddit API wrapper written in JavaScript",
-  "main": "lib/main.js",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

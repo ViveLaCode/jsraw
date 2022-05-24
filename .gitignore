@@ -2,6 +2,7 @@ dist/
 build/
 doc/
 oauth_info.json
+.obsidian/workspace
 
 # Logs
 logs

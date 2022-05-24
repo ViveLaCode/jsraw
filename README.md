@@ -1,12 +1,17 @@
 # JSreddAPI
 Super simple reddit API wrapper written in JavaScript
 
+## Constraints
+
+- Currently it shall work only for [Script app type](https://github.com/reddit-archive/reddit/wiki/oauth2-app-types#script)
+
 ## Where To Get Started
 
 - [r/learnpython - how to build an api wrapper](https://www.reddit.com/r/learnpython/comments/711ny3/how_to_build_an_api_wrapper/)
 - ["how to" in R programming language](https://colinfay.me/build-api-wrapper-package-r/)
 - ["NodeJS wrapper for weather API"](https://itnext.io/how-to-build-a-nodejs-wrapper-for-a-weather-api-28404caedfdb)
 - [StackOverflow - Possible design pattern for JS API wrapper](https://stackoverflow.com/questions/9254787/implementing-a-javascript-api-wrapper)
+- [OAuth reddit](https://github.com/reddit-archive/reddit/wiki/OAuth2#getting-started)
 
 ### Example API wrappers
 

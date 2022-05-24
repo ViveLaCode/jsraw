@@ -1,19 +1,26 @@
-/* Example POST method implementation: */
-export async function postData(url = '', data = {}) {
-  // Default options are marked with *
+// let base64 = require('base-64')
+let Buffer = require('node:buffer').Buffer;
+
+/* specific POST implementation for reddit API */
+module.exports.postData = async function (url = '', auth, data = {}, userAgent, tokenType = 'Basic') {
+
+  let authString = auth.clientId + ':' + auth.clientSecret
+  let s = Buffer.alloc(authString.length, authString).toString('base64');
+
   const response = await fetch(url, {
-    method: 'POST', // *GET, POST, PUT, DELETE, etc.
-    mode: 'cors', // no-cors, *cors, same-origin
-    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-    credentials: 'same-origin', // include, *same-origin, omit
+    method: 'POST',
+    mode: 'cors',
+    cache: 'no-cache',
+    credentials: 'same-origin',
     headers: {
-      'Content-Type': 'application/json'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
+      'Authorization': `${tokenType} ${s}`,
+      'User-Agent': userAgent,
+      'Content-Type': 'application/x-www-form-urlencoded'
     },
-    redirect: 'follow', // manual, *follow, error
-    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify(data) // body data type must match "Content-Type" header
+    redirect: 'follow',
+    referrerPolicy: 'no-referrer',
+    body: new URLSearchParams(data).toString()
   });
-  console.log('Data sent: ', data);
-  return response.text(); // parses JSON response into native JavaScript objects
+
+  return response.text();
 }

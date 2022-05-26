@@ -9,18 +9,13 @@ module.exports.postData = async function (url = '', auth, data = {}, userAgent, 
 
   const response = await fetch(url, {
     method: 'POST',
-    mode: 'cors',
-    cache: 'no-cache',
-    credentials: 'same-origin',
     headers: {
       'Authorization': `${tokenType} ${s}`,
       'User-Agent': userAgent,
       'Content-Type': 'application/x-www-form-urlencoded'
     },
-    redirect: 'follow',
-    referrerPolicy: 'no-referrer',
     body: new URLSearchParams(data).toString()
   });
 
-  return response.text();
+  return response.json();
 }

@@ -1,9 +1,10 @@
-# JSreddAPI
-Super simple reddit API wrapper written in JavaScript
+# JSRAW: JavaScript Reddit API Wrapper
+
+Super simple reddit API wrapper written in JavaScript. Primarily made to be used in the [rdiscbot](https://github.com/laughingclouds/rdiscbot) project.
 
 ## Constraints
 
-- Currently it shall work only for [Script app type](https://github.com/reddit-archive/reddit/wiki/oauth2-app-types#script)
+- It will work only for [Script type apps](https://github.com/reddit-archive/reddit/wiki/oauth2-app-types#script)
 
 ## Where To Get Started
 
@@ -16,6 +17,7 @@ Super simple reddit API wrapper written in JavaScript
 ### Example API wrappers
 
 - [JS | wrapper for reddit API](https://github.com/not-an-aardvark/snoowrap)
+- [PY | wrapper for reddit API](https://github.com/praw-dev/praw)
 - [JS | IMGUR Node API](https://github.com/jamiees2/imgur-node-api)
 - [JS | Spotifiy API wrapper](https://github.com/thelinmichael/spotify-web-api-node)
 - [JS | Oauth wrapper for node](https://github.com/ciaranj/node-oauth)

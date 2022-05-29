@@ -26,7 +26,8 @@ Super simple reddit API wrapper written in JavaScript. Primarily made to be used
 
 ### Further Readings
 
-- ["*.d\.ts" files (typescript)](https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript)
+- ["*.d.ts" files (typescript)](https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript)
+	- [official doc | declaration files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)
 - JS Promises
   - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
   - [W3](https://www.w3schools.com/js/js_promise.asp)

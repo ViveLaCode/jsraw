@@ -1,0 +1,10 @@
+{
+  "userAgent": "USER_AGENT",
+  "clientId": "CLIENT_ID",
+  "clientSecret": "CLIENT_SECRET",
+  "refreshToken": "",
+  "accessToken": "",
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "redirectURI": "https://www.reddit.com/"
+}

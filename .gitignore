@@ -1,8 +1,11 @@
+lib/index.py
 dist/
 build/
 doc/
 oauth_info.json
 .obsidian/workspace
+venv/
+ignoreDir/
 
 # Logs
 logs

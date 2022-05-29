@@ -1,5 +1,5 @@
 {
-  "name": "jsreddapi",
+  "name": "jsraw",
   "version": "0.0.1",
   "description": "Super simple reddit API wrapper written in JavaScript",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laughingclouds/JSreddAPI.git"
+    "url": "git+https://github.com/laughingclouds/jsraw.git"
   },
   "keywords": [
     "reddit",
@@ -25,7 +25,7 @@
   "author": "laughingclouds <https://github.com/laughingclouds>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/laughingclouds/JSreddAPI/issues"
+    "url": "https://github.com/laughingclouds/jsraw/issues"
   },
-  "homepage": "https://github.com/laughingclouds/JSreddAPI#readme"
+  "homepage": "https://github.com/laughingclouds/jsraw#readme"
 }

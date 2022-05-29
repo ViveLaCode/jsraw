@@ -1,5 +1,10 @@
-# JSreddAPI
-Super simple reddit API wrapper written in JavaScript
+# JSRAW: JavaScript Reddit API Wrapper
+
+Super simple reddit API wrapper written in JavaScript. Primarily made to be used in the [rdiscbot](https://github.com/laughingclouds/rdiscbot) project.
+
+## Constraints
+
+- It will work only for [Script type apps](https://github.com/reddit-archive/reddit/wiki/oauth2-app-types#script)
 
 ## Where To Get Started
 
@@ -7,10 +12,12 @@ Super simple reddit API wrapper written in JavaScript
 - ["how to" in R programming language](https://colinfay.me/build-api-wrapper-package-r/)
 - ["NodeJS wrapper for weather API"](https://itnext.io/how-to-build-a-nodejs-wrapper-for-a-weather-api-28404caedfdb)
 - [StackOverflow - Possible design pattern for JS API wrapper](https://stackoverflow.com/questions/9254787/implementing-a-javascript-api-wrapper)
+- [OAuth reddit](https://github.com/reddit-archive/reddit/wiki/OAuth2#getting-started)
 
 ### Example API wrappers
 
 - [JS | wrapper for reddit API](https://github.com/not-an-aardvark/snoowrap)
+- [PY | wrapper for reddit API](https://github.com/praw-dev/praw)
 - [JS | IMGUR Node API](https://github.com/jamiees2/imgur-node-api)
 - [JS | Spotifiy API wrapper](https://github.com/thelinmichael/spotify-web-api-node)
 - [JS | Oauth wrapper for node](https://github.com/ciaranj/node-oauth)
@@ -19,7 +26,8 @@ Super simple reddit API wrapper written in JavaScript
 
 ### Further Readings
 
-- ["*.d\.ts" files (typescript)](https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript)
+- ["*.d.ts" files (typescript)](https://stackoverflow.com/questions/21247278/about-d-ts-in-typescript)
+	- [official doc | declaration files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)
 - JS Promises
   - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
   - [W3](https://www.w3schools.com/js/js_promise.asp)

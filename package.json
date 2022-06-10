@@ -9,6 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib/",
+    "scripts/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laughingclouds/jsraw.git"

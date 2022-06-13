@@ -1,4 +1,4 @@
 {
   "typescript.suggestionActions.enabled": false,
-  "typescript.suggest.enabled": false
+  "javascript.suggestionActions.enabled": false
 }

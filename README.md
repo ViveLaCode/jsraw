@@ -2,6 +2,10 @@
 
 Super simple reddit API wrapper written in JavaScript. Primarily made to be used in the [rdiscbot](https://github.com/laughingclouds/rdiscbot) project.
 
+## Pausing Development
+
+I want to focus on a few other projects, so I'm pausing development of jsraw. Although I will be more than happy to accept contributions.
+
 ## Constraints
 
 - It will work only for [Script type apps](https://github.com/reddit-archive/reddit/wiki/oauth2-app-types#script)
